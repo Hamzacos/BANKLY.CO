@@ -23,9 +23,9 @@ public class Wallet {
     private String name;
     private Double balance;
 
-    public Wallet(String name,Double balance){
+    /*public Wallet(String name,Double balance){
         this.name = name;
         this.balance = balance;
-    }
+    }*/
 
 }

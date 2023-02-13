@@ -11,4 +11,7 @@ public interface ServiceWallet {
     Wallet findById(String id);
     Wallet save(Wallet wallet);
     void deleteById(String id);
+    double checkBalance(String walletId);
+    double creditAmount(String walletId, double amount);
+    double debitAmount(String walletId, double amount);
 }
